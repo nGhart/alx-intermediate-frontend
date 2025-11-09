@@ -1,2 +1,16 @@
-## Installing SASS ##
-Node.js was already installed
+## Installing SASS
+
+1. Verified that Node.js was already installed.
+
+2. Opened the project folder in the terminal.
+
+3. Installed Sass locally as a development dependency:
+   npm install sass --save-dev
+
+4. Confirmed the installation by checking the version:
+   npx sass --version
+
+5. Added a script to the package.json file to compile Sass:
+   "scripts": {
+   "sass": "sass src/styles.scss dist/styles.css"
+   }
